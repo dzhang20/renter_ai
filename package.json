@@ -1,0 +1,29 @@
+{
+  "name": "renter-helper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "InnovAItors prototype: photo-based maintenance urgency triage for renters and property managers",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "eval": "tsx eval/run-eval.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0",
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.0",
+    "tsx": "^4.19.0"
+  }
+}

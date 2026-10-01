@@ -1,0 +1,17 @@
+[
+  { "description": "I smell gas in the kitchen near the stove", "expected": "Emergency" },
+  { "description": "Outlet in the bedroom sparked and now there's a burning smell", "expected": "Emergency" },
+  { "description": "Toilet overflowing and won't stop even after I turned the handle", "expected": "Emergency" },
+  { "description": "Sewage coming up through the bathtub drain", "expected": "Emergency" },
+  { "description": "Heat is out and it's 25 degrees outside", "expected": "Emergency" },
+  { "description": "Front door lock is broken, door won't lock", "expected": "Emergency" },
+  { "description": "Carbon monoxide detector is beeping", "expected": "Emergency" },
+  { "description": "AC stopped working, it's 95 degrees today", "expected": "Urgent" },
+  { "description": "Slow drip under the kitchen sink, I put a bowl under it", "expected": "Urgent" },
+  { "description": "No hot water since this morning", "expected": "Urgent" },
+  { "description": "Fridge stopped cooling", "expected": "Urgent" },
+  { "description": "Bathroom light bulb burned out", "expected": "Routine" },
+  { "description": "Bathroom faucet drips a little", "expected": "Routine" },
+  { "description": "Scuff marks and a small hole in the hallway drywall", "expected": "Routine" },
+  { "description": "Smoke detector chirping every minute", "expected": "Urgent", "note": "Ambiguous on purpose: low battery vs. alarm. Team should decide the expected label." }
+]
